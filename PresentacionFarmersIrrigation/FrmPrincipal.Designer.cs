@@ -37,6 +37,7 @@
             this.panelCornerRound1 = new PresentacionFarmersIrrigation.PanelCornerRound();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDataBase = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnMonitoring = new System.Windows.Forms.Button();
             this.btnControl = new System.Windows.Forms.Button();
@@ -75,6 +76,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(225)))), ((int)(((byte)(242)))));
+            this.panel2.Controls.Add(this.btnDataBase);
             this.panel2.Controls.Add(this.btnExit);
             this.panel2.Controls.Add(this.btnMonitoring);
             this.panel2.Controls.Add(this.btnControl);
@@ -139,6 +141,25 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnDataBase
+            // 
+            this.btnDataBase.BackColor = System.Drawing.Color.White;
+            this.btnDataBase.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDataBase.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDataBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDataBase.Image = global::PresentacionFarmersIrrigation.Properties.Resources.database_storage_64;
+            this.btnDataBase.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDataBase.Location = new System.Drawing.Point(0, 368);
+            this.btnDataBase.Name = "btnDataBase";
+            this.btnDataBase.Padding = new System.Windows.Forms.Padding(20, 0, 50, 0);
+            this.btnDataBase.Size = new System.Drawing.Size(416, 84);
+            this.btnDataBase.TabIndex = 4;
+            this.btnDataBase.Text = "Base de datos";
+            this.btnDataBase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDataBase.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnDataBase.UseVisualStyleBackColor = false;
+            this.btnDataBase.Click += new System.EventHandler(this.btnDataBase_Click);
             // 
             // btnExit
             // 
@@ -266,6 +287,7 @@
         private System.Windows.Forms.Button btnControl;
         private System.Windows.Forms.Button btnMonitoring;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnDataBase;
     }
 }
 

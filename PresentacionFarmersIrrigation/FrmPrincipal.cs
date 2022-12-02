@@ -16,17 +16,17 @@ namespace PresentacionFarmersIrrigation
         private Form frmActive = null;
         public static Bomba bomba1 = new Bomba
         {
-            Id = 1,
+            IdBomba=1,
             Estatus = false
         };
         public static Bomba bomba2 = new Bomba
         {
-            Id = 2,
+            IdBomba=2,
             Estatus=false
         };
         public static Bomba bomba3 = new Bomba
         {
-            Id = 3,
+            IdBomba=3,
             Estatus=false
         };
         public FrmPrincipal()
@@ -74,6 +74,11 @@ namespace PresentacionFarmersIrrigation
         private void btnMonitoring_Click(object sender, EventArgs e)
         {
             openChildForm(new FrmMonitoring());
+        }
+
+        private void btnDataBase_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmDataBase());
         }
     }
 }

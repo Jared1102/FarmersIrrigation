@@ -73,9 +73,9 @@ namespace PresentacionFarmersIrrigation.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap drip {
+        internal static System.Drawing.Bitmap database_storage_64 {
             get {
-                object obj = ResourceManager.GetObject("drip", resourceCulture);
+                object obj = ResourceManager.GetObject("database-storage_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace PresentacionFarmersIrrigation.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pump {
+        internal static System.Drawing.Bitmap drip {
             get {
-                object obj = ResourceManager.GetObject("pump", resourceCulture);
+                object obj = ResourceManager.GetObject("drip", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,39 +103,9 @@ namespace PresentacionFarmersIrrigation.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pump_Off1 {
-            get {
-                object obj = ResourceManager.GetObject("pump_Off1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pump_Off2 {
-            get {
-                object obj = ResourceManager.GetObject("pump_Off2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap pump_On {
             get {
                 object obj = ResourceManager.GetObject("pump_On", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap remote_control_128 {
-            get {
-                object obj = ResourceManager.GetObject("remote-control_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

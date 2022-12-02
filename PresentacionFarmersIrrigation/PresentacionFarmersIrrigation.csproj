@@ -62,6 +62,12 @@
     <Compile Include="FrmControl.Designer.cs">
       <DependentUpon>FrmControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataBase.Designer.cs">
+      <DependentUpon>FrmDataBase.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMonitoring.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmControl.resx">
       <DependentUpon>FrmControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataBase.resx">
+      <DependentUpon>FrmDataBase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMonitoring.resx">
       <DependentUpon>FrmMonitoring.cs</DependentUpon>
@@ -125,6 +134,8 @@
     <None Include="Resources\salidColor_64.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\database-storage_128.png" />
+    <None Include="Resources\database-storage_64.png" />
     <Content Include="Resources\pump.png" />
     <None Include="Resources\pump_On.png" />
     <None Include="Resources\pump_Off2.png" />
@@ -134,6 +145,10 @@
     <ProjectReference Include="..\EntidadesFarmersIrrigation\EntidadesFarmersIrrigation.csproj">
       <Project>{80d76a11-7dc2-4703-8377-e569b4409304}</Project>
       <Name>EntidadesFarmersIrrigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejadoresFarmersIrrigation\ManejadoresFarmersIrrigation.csproj">
+      <Project>{8ca2f770-5a87-4299-b209-4bad56cdaec8}</Project>
+      <Name>ManejadoresFarmersIrrigation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

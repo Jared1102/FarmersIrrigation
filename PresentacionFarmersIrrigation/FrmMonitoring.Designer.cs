@@ -177,7 +177,7 @@
             // ptrbDrip1
             // 
             this.ptrbDrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ptrbDrip1.Image = global::PresentacionFarmersIrrigation.Properties.Resources.pump_Off2;
+            this.ptrbDrip1.Image = global::PresentacionFarmersIrrigation.Properties.Resources.pump_Off;
             this.ptrbDrip1.Location = new System.Drawing.Point(83, 55);
             this.ptrbDrip1.Name = "ptrbDrip1";
             this.ptrbDrip1.Size = new System.Drawing.Size(128, 128);

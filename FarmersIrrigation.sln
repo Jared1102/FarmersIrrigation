@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionFarmersIrrigati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesFarmersIrrigation", "EntidadesFarmersIrrigation\EntidadesFarmersIrrigation.csproj", "{80D76A11-7DC2-4703-8377-E569B4409304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatosFarmersIrrigation", "AccesoDatosFarmersIrrigation\AccesoDatosFarmersIrrigation.csproj", "{E5C460F3-31DD-43BD-8CE0-E9760F9BBC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejadoresFarmersIrrigation", "ManejadoresFarmersIrrigation\ManejadoresFarmersIrrigation.csproj", "{8CA2F770-5A87-4299-B209-4BAD56CDAEC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{80D76A11-7DC2-4703-8377-E569B4409304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D76A11-7DC2-4703-8377-E569B4409304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D76A11-7DC2-4703-8377-E569B4409304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C460F3-31DD-43BD-8CE0-E9760F9BBC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C460F3-31DD-43BD-8CE0-E9760F9BBC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C460F3-31DD-43BD-8CE0-E9760F9BBC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C460F3-31DD-43BD-8CE0-E9760F9BBC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA2F770-5A87-4299-B209-4BAD56CDAEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA2F770-5A87-4299-B209-4BAD56CDAEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA2F770-5A87-4299-B209-4BAD56CDAEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA2F770-5A87-4299-B209-4BAD56CDAEC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
